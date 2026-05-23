@@ -1,6 +1,6 @@
 
 import GymProject from "./pages/GymProject";
-import ProductProject from "./pages/ProductProject";
+import ProductProject from "./pages/ProductProject.jsx";
 import ProductReviewDetails from "./pages/ProductReviewDetails";
 import GymPlatformDetails from "./pages/GymPlatformDetails";
 import PlantsUIDetails from "./pages/PlantsUIDetails";
