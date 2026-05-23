@@ -10,66 +10,129 @@ import { Routes, Route, Link } from "react-router-dom";
 import profile from "./assets/profile.jpeg";
 import heroBg from "./assets/hero-bg.png";
 import { FaPhone, FaEnvelope, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
-
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <div className="bg-black text-white min-h-screen md:h-screen">
+    <div className="bg-black text-white min-h-screen md:h-screen pt-24">
 
       {/* NAVBAR */}
-      <nav
+<nav
   className="
     fixed top-0 left-0 w-full z-50
-    flex justify-between items-center
-    px-6 md:px-16 py-4
-    bg-black/70 backdrop-blur-md
+    bg-black/80 backdrop-blur-md
     border-b border-gray-800
   "
 >
-  {/* LOGO */}
-  <h1 className="text-2xl font-bold tracking-wide cursor-pointer">
-    Aashu<span className="text-red-600">.</span>
-  </h1>
 
-  {/* NAV LINKS */}
-  <ul className="hidden md:flex gap-10 text-gray-300 font-medium">
-    <li className="hover:text-red-500 transition cursor-pointer">
-      <a href="#home">Home</a>
-    </li>
-
-    <li className="hover:text-red-500 transition cursor-pointer">
-      <a href="#projects">Projects</a>
-    </li>
-
-    <li className="hover:text-red-500 transition cursor-pointer">
-      <a href="#services">Services</a>
-    </li>
-
-    <li className="hover:text-red-500 transition cursor-pointer">
-      <a href="#contact">Contact</a>
-    </li>
-  </ul>
-
-  {/* BUTTON */}
-  <button
+  <div
     className="
-      border border-red-700
-      px-5 py-2 rounded-xl
-      hover:bg-red-700 hover:text-white
-      transition duration-300
-      shadow-[0_0_20px_rgba(255,0,0,0.15)]
-      hover:shadow-[0_0_30px_rgba(255,0,0,0.35)]
+      flex justify-between items-center
+      px-5 md:px-16 py-4
     "
   >
-    Hire Me
-  </button>
+
+    {/* LOGO */}
+    <h1 className="text-2xl font-bold tracking-wide text-white cursor-pointer">
+      Aashu<span className="text-red-600">.</span>
+    </h1>
+
+
+    {/* DESKTOP NAV */}
+    <ul className="hidden md:flex gap-10 text-gray-300 font-medium">
+
+      <li className="hover:text-red-500 transition cursor-pointer">
+        <a href="#home">Home</a>
+      </li>
+
+      <li className="hover:text-red-500 transition cursor-pointer">
+        <a href="#projects">Projects</a>
+      </li>
+
+      <li className="hover:text-red-500 transition cursor-pointer">
+        <a href="#services">Services</a>
+      </li>
+
+      <li className="hover:text-red-500 transition cursor-pointer">
+        <a href="#contact">Contact</a>
+      </li>
+
+    </ul>
+
+
+    {/* DESKTOP BUTTON */}
+    <button
+      className="
+        hidden md:block
+        border border-red-700
+        px-5 py-2 rounded-xl
+        text-white
+        hover:bg-red-700
+        transition duration-300
+      "
+    >
+      Hire Me
+    </button>
+
+
+    {/* MOBILE MENU BUTTON */}
+    <button
+      className="md:hidden text-white"
+      onClick={() => setMenuOpen(!menuOpen)}
+    >
+      {menuOpen ? <X size={30} /> : <Menu size={30} />}
+    </button>
+
+  </div>
+
+
+  {/* MOBILE MENU */}
+  {menuOpen && (
+
+    <div
+      className="
+        md:hidden
+        bg-black
+        border-t border-gray-800
+        px-6 py-6
+      "
+    >
+
+      <div className="flex flex-col gap-6 text-white text-lg">
+
+        <a href="#home">Home</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#services">Services</a>
+
+        <a href="#contact">Contact</a>
+
+        <button
+          className="
+            border border-red-700
+            py-3 rounded-xl
+            mt-2
+          "
+        >
+          Hire Me
+        </button>
+
+      </div>
+
+    </div>
+
+  )}
+
 </nav>
 
-      {/* HERO */}
-      <div
-      
+     {/* HERO */}
+<div
   id="home"
-  className="relative h-[85vh] pt-24 flex items-center justify-center px-6 overflow-hidden scroll-mt-24"
+  className="relative flex items-center justify-center px-5 md:px-6 py-24 md:py-32 overflow-x-hidden"
 >
       {/* HERO BACKGROUND */}
 <div className="absolute inset-0 overflow-hidden">
@@ -105,7 +168,7 @@ function Home() {
         <div className="max-w-4xl text-center relative z-10">
           <p className="text-gray-400 mb-4 tracking-widest">PORTFOLIO</p>
 
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xlfont-bold leading-snug md:leading-tight">
             I build{" "}
             <span className="bg-gradient-to-r from-red-700 to-red-900 bg-clip-text text-transparent">
               high-converting websites
@@ -114,13 +177,13 @@ function Home() {
             that help businesses grow online.
           </h1>
 
-          <p className="text-gray-400 mt-6 text-lg">
+          <p className="text-gray-400 mt-6 text-base md:text-lg">
             UI/UX Designer & Web Developer focused on creating modern,
             scalable and user-friendly digital experiences.
           </p>
 
-          <div className="mt-8 flex gap-4 justify-center">
-            <a
+          <div className="mt-8 flex  gap-4 justify-center items-center">
+           <a
   href="/work"
   className="
   bg-red-700 text-white
@@ -134,12 +197,13 @@ function Home() {
   View Work →
 </a>
 
-            <a
+           <a
   href="#contact"
   className="
   border border-red-800
   px-6 py-3 rounded-lg
-  hover:bg-red-900/20 transition
+  hover:bg-red-900/20
+  transition duration-300
 "
 >
   Contact Me
