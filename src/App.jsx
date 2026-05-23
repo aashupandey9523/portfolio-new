@@ -561,7 +561,7 @@ function Home() {
       {/* RIGHT IMAGE */}
       <div className="flex justify-center">
        <img 
-  src={profile}
+  src="/images/profile.jpeg"
   className="w-96 h-96 object-cover rounded-2xl border border-gray-800 
   shadow-[0_20px_60px_rgba(255,0,0,0.25)]
   animate-float"
