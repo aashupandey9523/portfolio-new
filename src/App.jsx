@@ -161,26 +161,52 @@ function Home() {
 
 </div>
 
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-red-900 rounded-full blur-3xl opacity-10"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-red-900 rounded-full blur-3xl opacity-10"></div>
 
-        <div className="max-w-4xl text-center relative z-10">
-          <p className="text-gray-400 mb-4 tracking-widest">PORTFOLIO</p>
+<div className="max-w-6xl text-center relative z-10 mx-auto px-6">
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xlfont-bold leading-snug md:leading-tight">
-            I build{" "}
-            <span className="bg-gradient-to-r from-red-700 to-red-900 bg-clip-text text-transparent">
-              high-converting websites
-            </span>
-            <br />
-            that help businesses grow online.
-          </h1>
+  <p className="text-gray-300 mb-6 tracking-[6px] text-sm md:text-base">
+    PORTFOLIO
+  </p>
 
-          <p className="text-gray-400 mt-6 text-base md:text-lg">
-            UI/UX Designer & Web Developer focused on creating modern,
-            scalable and user-friendly digital experiences.
-          </p>
+  <h1
+    className="
+    text-[44px]
+    sm:text-[58px]
+    md:text-[76px]
+    lg:text-[92px]
+    font-black
+    leading-[0.95]
+    tracking-[-2px]
+    text-white
+    "
+  >
+    I build{" "}
+    
+    <span className="bg-gradient-to-r from-red-600 to-red-900 bg-clip-text text-transparent block">
+      high-converting websites
+    </span>
 
-          <div className="mt-8 flex  gap-4 justify-center items-center">
+    that help businesses grow online.
+  </h1>
+
+  <p
+    className="
+    text-gray-300
+    mt-8
+    text-base
+    md:text-xl
+    max-w-3xl
+    mx-auto
+    leading-relaxed
+    "
+  >
+    UI/UX Designer & Web Developer focused on creating modern,
+    scalable and user-friendly digital experiences.
+  </p>
+
+  <div className="mt-10 flex gap-5 justify-center items-center">
+
            <a
   href="/work"
   className="
