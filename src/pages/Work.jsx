@@ -15,7 +15,7 @@ const projects = [
   {
     title: "Plants Ordering Website UI",
     desc: "Modern plants ordering website UI with premium product showcase and clean shopping experience.",
-    image: plantsUI,
+    image: "/images/plants-ui.png",
     tech: ["Figma", "UI Design", "E-Commerce"],
 
     live: "/videos/plants-ui-demo.mp4",
@@ -35,7 +35,7 @@ const projects = [
   {
     title: "Furniture Showcase UI",
     desc: "Premium furniture showcase UI with luxury shopping experience and modern product layouts.",
-    image: furnitureUI,
+    image: "/images/furniture-ui.png",
     tech: ["Figma", "UI/UX", "Responsive"],
 
     live: "/videos/furniture-ui-demo.mp4",
