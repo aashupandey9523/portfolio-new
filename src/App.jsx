@@ -127,123 +127,39 @@ function Home() {
 
 </nav>
 
-  {/* HERO */}
+     {/* HERO */}
 <div
   id="home"
-  className="relative min-h-screen flex items-center justify-center overflow-hidden px-6"
+  className="relative min-h-screen flex items-center justify-center px-5 md:px-6 overflow-x-hidden"
 >
-  {/* HERO BACKGROUND */}
-  <div className="absolute inset-0">
+      {/* HERO BACKGROUND */}
+<div className="absolute inset-0 overflow-hidden">
 
-    {/* BACKGROUND IMAGE */}
-    <img
-      src="/images/hero-bg.png"
-      alt="hero background"
-      className="absolute inset-0 w-full h-full object-cover object-center"
-    />
+  {/* BACKGROUND IMAGE */}
+  <img
+    src="/images/hero-bg.png"
+    alt="hero background"
+   className="absolute inset-0 w-full h-full object-cover object-center scale-105"
+  />
 
-    {/* DARK OVERLAY */}
-    <div className="absolute inset-0 bg-black/55"></div>
+  {/* DARK OVERLAY */}
+  <div className="absolute inset-0 bg-black/10"></div>
 
-    {/* RED GLOW RIGHT */}
-    <div
-      className="absolute top-0 right-0 w-[900px] h-[900px]
-      bg-red-600/20 blur-[180px] rounded-full"
-    ></div>
+  {/* RED GLOW */}
+  <div
+    className="absolute top-0 right-0 w-[700px] h-[800px]
+    bg-red-600/20 blur-[160px] rounded-full"
+  ></div>
 
-    {/* RED GLOW LEFT */}
-    <div
-      className="absolute bottom-0 left-0 w-[700px] h-[700px]
-      bg-red-700/20 blur-[160px] rounded-full"
-    ></div>
+  {/* EXTRA DEPTH */}
+  <div
+    className="absolute bottom-0 left-0 w-[500px] h-[700px]
+    bg-red-900/20 blur-[140px] rounded-full"
+  ></div>
 
-    {/* GRADIENT OVERLAY */}
-    <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black"></div>
-  </div>
+ 
 
-  {/* HERO CONTENT */}
-  <div className="relative z-10 text-center max-w-6xl mx-auto">
-
-    {/* SMALL LABEL */}
-    <p className="uppercase tracking-[6px] text-gray-300 text-sm md:text-base mb-6">
-      Portfolio
-    </p>
-
-    {/* MAIN HEADING */}
-    <h1
-      className="
-      text-5xl
-      sm:text-6xl
-      md:text-7xl
-      lg:text-8xl
-      font-extrabold
-      leading-[1.05]
-      tracking-tight
-      text-white
-      "
-    >
-      I build{" "}
-      <span className="text-red-600">
-        high-converting
-      </span>
-      <br />
-      websites that help
-      <br />
-      businesses grow online.
-    </h1>
-
-    {/* SUBTEXT */}
-    <p
-      className="
-      mt-8
-      text-gray-300
-      text-lg
-      md:text-xl
-      max-w-3xl
-      mx-auto
-      leading-relaxed
-      "
-    >
-      UI/UX Designer & Web Developer focused on creating
-      modern, scalable and user-friendly digital experiences.
-    </p>
-
-    {/* BUTTONS */}
-    <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mt-10">
-
-      <a
-        href="#projects"
-        className="
-        bg-red-600 hover:bg-red-700
-        text-white
-        px-8 py-4
-        rounded-xl
-        font-semibold
-        transition-all duration-300
-        hover:scale-105
-        shadow-[0_0_40px_rgba(255,0,0,0.25)]
-        "
-      >
-        View Work →
-      </a>
-
-      <a
-        href="#contact"
-        className="
-        border border-red-600
-        text-white
-        px-8 py-4
-        rounded-xl
-        font-semibold
-        hover:bg-red-600/10
-        transition-all duration-300
-        "
-      >
-        Contact Me
-      </a>
-    </div>
-  </div>
-
+</div>
 
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-red-900 rounded-full blur-3xl opacity-10"></div>
 
