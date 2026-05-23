@@ -7,8 +7,6 @@ import PlantsUIDetails from "./pages/PlantsUIDetails";
 import FurnitureUIDetails from "./pages/FurnitureUIDetails";
 import Work from "./pages/Work";
 import { Routes, Route, Link } from "react-router-dom";
-import profile from "./assets/profile.jpeg";
-import heroBg from "./assets/hero-bg.png";
 import { FaPhone, FaEnvelope, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
