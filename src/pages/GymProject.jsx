@@ -24,7 +24,7 @@ function GymProject() {
       <div className="grid md:grid-cols-2 gap-6 mb-16">
 
         <img
-          src="/src/assets/gym1.png"
+          src="/images/gym1.png"
           className="
             rounded-2xl
             cursor-pointer
@@ -34,11 +34,11 @@ function GymProject() {
             hover:border-red-700
             hover:shadow-[0_10px_40px_rgba(255,0,0,0.2)]
           "
-          onClick={() => setSelectedImage("/src/assets/gym1.png")}
+          onClick={() => setSelectedImage("/images/gym1.png")}
         />
 
         <img
-          src="/src/assets/gym2.png"
+          src="/images/gym2.png"
           className="
             rounded-2xl
             cursor-pointer
@@ -48,11 +48,11 @@ function GymProject() {
             hover:border-red-700
             hover:shadow-[0_10px_40px_rgba(255,0,0,0.2)]
           "
-          onClick={() => setSelectedImage("/src/assets/gym2.png")}
+          onClick={() => setSelectedImage("/images/gym2.png")}
         />
 
         <img
-          src="/src/assets/gym3.png"
+          src="/images/gym3.png"
           className="
             rounded-2xl
             cursor-pointer
@@ -62,11 +62,11 @@ function GymProject() {
             hover:border-red-700
             hover:shadow-[0_10px_40px_rgba(255,0,0,0.2)]
           "
-          onClick={() => setSelectedImage("/src/assets/gym3.png")}
+          onClick={() => setSelectedImage("/images/gym3.png")}
         />
 
         <img
-          src="/src/assets/gym4.png"
+          src="/images/gym4.png"
           className="
             rounded-2xl
             cursor-pointer
@@ -76,7 +76,7 @@ function GymProject() {
             hover:border-red-700
             hover:shadow-[0_10px_40px_rgba(255,0,0,0.2)]
           "
-          onClick={() => setSelectedImage("/src/assets/gym4.png")}
+          onClick={() => setSelectedImage("/images/gym4.png")}
         />
 
       </div>

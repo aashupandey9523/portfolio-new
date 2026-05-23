@@ -252,16 +252,16 @@ function Home() {
 
   <div className="flex gap-6 animate-scroll items-center">
 
-    <img src="/src/assets/gym1.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
-    <img src="/src/assets/gym2.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
-    <img src="/src/assets/gym3.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
-    <img src="/src/assets/gym4.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
+    <img src="/images/gym1.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
+    <img src="/images/gym2.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
+    <img src="/images/gym3.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
+    <img src="/images/gym4.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
 
     {/* duplicate */}
-    <img src="/src/assets/gym1.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
-    <img src="/src/assets/gym2.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
-    <img src="/src/assets/gym3.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
-    <img src="/src/assets/gym4.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
+    <img src="/images/gym1.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
+    <img src="/images/gym2.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
+    <img src="/images/gym3.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
+    <img src="/images/gym4.png" className="h-72 min-w-[300px] rounded-xl object-cover flex-shrink-0" />
 
   </div>
 
@@ -297,16 +297,16 @@ function Home() {
 
       <div className="flex gap-6 animate-scroll items-center">
 
-        <img src="/src/assets/product1.png" className="h-72 w-auto rounded-xl object-contain" />
-        <img src="/src/assets/product2.png" className="h-72 w-auto rounded-xl object-contain" />
-        <img src="/src/assets/product3.png" className="h-72 w-auto rounded-xl object-contain" />
-        <img src="/src/assets/product4.png" className="h-72 w-auto rounded-xl object-contain" />
+        <img src="/images/product1.png" className="h-72 w-auto rounded-xl object-contain" />
+        <img src="/images/product2.png" className="h-72 w-auto rounded-xl object-contain" />
+        <img src="/images/product3.png" className="h-72 w-auto rounded-xl object-contain" />
+        <img src="/images/product4.png" className="h-72 w-auto rounded-xl object-contain" />
 
         {/* duplicate */}
-        <img src="/src/assets/product1.png" className="h-72 w-auto rounded-xl object-contain" />
-        <img src="/src/assets/product2.png" className="h-72 w-auto rounded-xl object-contain" />
-        <img src="/src/assets/product3.png" className="h-72 w-auto rounded-xl object-contain" />
-        <img src="/src/assets/product4.png" className="h-72 w-auto rounded-xl object-contain" />
+        <img src="/images/product1.png" className="h-72 w-auto rounded-xl object-contain" />
+        <img src="/images/product2.png" className="h-72 w-auto rounded-xl object-contain" />
+        <img src="/images/product3.png" className="h-72 w-auto rounded-xl object-contain" />
+        <img src="/images/product4.png" className="h-72 w-auto rounded-xl object-contain" />
 
       </div>
 
@@ -813,7 +813,7 @@ transition-all duration-300">
 {/* email box */}
   <div className="w-14 h-14 rounded-xl bg-red-600/10 flex items-center justify-center">
     <img 
-      src="/src/assets/gmail.png"
+      src="/images/gmail.png"
       alt=""
       className="w-7 h-7 object-contain"
     />
@@ -841,7 +841,7 @@ transition-all duration-300">
 
   <div className="w-14 h-14 rounded-xl bg-red-600/10 flex items-center justify-center">
     <img 
-      src="/src/assets/whatsapp.png"
+      src="/images/whatsapp.png"
       alt=""
       className="w-7 h-7 object-contain"
     />
@@ -870,7 +870,7 @@ transition-all duration-300">
 
    <div className="w-14 h-14 rounded-xl bg-red-600/10 flex items-center justify-center text-2xl">
     <img 
-      src="/src/assets/placeholder.png"
+      src="/images/placeholder.png"
       alt=""
       className="w-7 h-7 object-contain"
     />
@@ -994,7 +994,7 @@ transition-all duration-500">
           transition-all duration-300"
         >
           <img
-            src="/src/assets/instagram.png"
+            src="/images/instagram.png"
             alt=""
             className="w-6 h-6 object-contain"
           />
@@ -1011,7 +1011,7 @@ transition-all duration-500">
           transition-all duration-300"
         >
           <img
-            src="/src/assets/linkedin.png"
+            src="/images/linkedin.png"
             alt=""
             className="w-6 h-6 object-contain"
           />
@@ -1028,7 +1028,7 @@ transition-all duration-500">
           transition-all duration-300"
         >
           <img
-            src="/src/assets/telegram.png"
+            src="/images/telegram.png"
             alt=""
             className="w-6 h-6 object-contain"
           />

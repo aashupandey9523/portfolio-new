@@ -24,7 +24,7 @@ function ProductProject() {
       <div className="grid md:grid-cols-2 gap-6 mb-16">
 
         <img
-          src="/src/assets/product1.png"
+          src="/images/product1.png"
           className="
             rounded-2xl
             cursor-pointer
@@ -34,11 +34,11 @@ function ProductProject() {
             hover:border-red-700
             hover:shadow-[0_10px_40px_rgba(255,0,0,0.2)]
           "
-          onClick={() => setSelectedImage("/src/assets/product1.png")}
+          onClick={() => setSelectedImage("/images/product1.png")}
         />
 
         <img
-          src="/src/assets/product2.png"
+          src="/images/product2.png"
           className="
             rounded-2xl
             cursor-pointer
@@ -48,11 +48,11 @@ function ProductProject() {
             hover:border-red-700
             hover:shadow-[0_10px_40px_rgba(255,0,0,0.2)]
           "
-          onClick={() => setSelectedImage("/src/assets/product2.png")}
+          onClick={() => setSelectedImage("/images/product2.png")}
         />
 
         <img
-          src="/src/assets/product3.png"
+          src="/images/product3.png"
           className="
             rounded-2xl
             cursor-pointer
@@ -62,11 +62,11 @@ function ProductProject() {
             hover:border-red-700
             hover:shadow-[0_10px_40px_rgba(255,0,0,0.2)]
           "
-          onClick={() => setSelectedImage("/src/assets/product3.png")}
+          onClick={() => setSelectedImage("/images/product3.png")}
         />
 
         <img
-          src="/src/assets/product4.png"
+          src="/images/product4.png"
           className="
             rounded-2xl
             cursor-pointer
@@ -76,7 +76,7 @@ function ProductProject() {
             hover:border-red-700
             hover:shadow-[0_10px_40px_rgba(255,0,0,0.2)]
           "
-          onClick={() => setSelectedImage("/src/assets/product4.png")}
+          onClick={() => setSelectedImage("/images/product4.png")}
         />
 
       </div>

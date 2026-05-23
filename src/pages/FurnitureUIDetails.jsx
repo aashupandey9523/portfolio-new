@@ -17,7 +17,7 @@ function FurnitureUIDetails() {
       <div className="rounded-3xl overflow-hidden border border-gray-800 mb-16">
 
         <img
-          src="/src/assets/furniture-ui.png"
+          src="/images/furniture-ui.png"
           alt="Furniture UI"
           className="w-full object-cover"
         />

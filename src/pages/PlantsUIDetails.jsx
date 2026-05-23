@@ -17,7 +17,7 @@ function PlantsUIDetails() {
       {/* MAIN IMAGE */}
       <div className="rounded-3xl overflow-hidden border border-gray-800 mb-16">
         <img
-          src="/src/assets/plants-ui.png"
+          src="/images/plants-ui.png"
           alt="Plants UI"
           className="w-full object-cover"
         />
