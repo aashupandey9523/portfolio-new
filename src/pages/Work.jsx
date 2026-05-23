@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Gym Website platform",
     desc: "Modern high-converting gym website with premium UI/UX and responsive layout.",
-    image: gym1,
+    image: "/images/gym1.png",
     tech: ["React", "Tailwind", "UI/UX"],
 
     live: "/videos/gym-website-demo.mp4",
@@ -25,7 +25,7 @@ const projects = [
   {
     title: "Product Review Platform",
     desc: "A modern product review and comparison platform with scalable frontend.",
-    image: product1,
+    image: "/images/product1.png",
     tech: ["React", "Frontend", "Tailwind"],
 
     live: "/videos/product-review-demo.mp4",
