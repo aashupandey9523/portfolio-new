@@ -1,9 +1,5 @@
 import { Link } from "react-router-dom";
 
-import gym1 from "../assets/gym1.png";
-import plantsUI from "../assets/plants-ui.png";
-import product1 from "../assets/product1.png";
-import furnitureUI from "../assets/furniture-ui.png";
 
 const projects = [
   {
