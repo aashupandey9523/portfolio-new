@@ -137,7 +137,7 @@ function Home() {
 
   {/* BACKGROUND IMAGE */}
   <img
-    src={heroBg}
+    src="/images/hero-bg.png"
     alt="hero background"
    className="absolute inset-0 w-full h-full object-cover object-center opacity-100"
   />
